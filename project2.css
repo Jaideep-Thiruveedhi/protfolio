@@ -18,9 +18,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 36px;
+  gap: 50px;
 }
-
 .navbar-right a{
   margin-left: 80px;
  
@@ -56,6 +55,23 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+.home-left .home-p {
+  background: linear-gradient(90deg, #E3F2FD 0%, #ffecd2cc 90%);
+  border-radius: 18px;
+  padding: 18px 22px;
+  margin: 16px 0 0 0;
+  box-shadow: 0 2px 12px #fbc29240;
+  color:#0D47A1 ;
+  font-size: 1.11em;
+  font-family: "M PLUS Code Latin", monospace;
+}
+
+
+.home-left .home-p b,
+.home-left .home-p strong {
+  color: #b24c00;
+}
+
 .home-right {
   width: 45vw;
   display: flex;
