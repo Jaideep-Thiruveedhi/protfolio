@@ -20,6 +20,11 @@ body {
   align-items: center;
   gap: 36px;
 }
+
+.navbar-right a{
+  margin-left: 80px;
+ 
+}
 .nav-link, .a-element {
   color: #5693c0;
   text-decoration: none;
