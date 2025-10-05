@@ -234,3 +234,33 @@ body {
   .logo-io { width: 140px; height: 140px; }
   .services-card { padding: 9px 2vw; }
 }
+.grid4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap; /* ensures it adjusts nicely on mobile */
+  margin-top: 20px;
+}
+
+.grid4 img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background-color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.grid4 img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+#extra {
+  text-align: center;
+  color: black;
+}
+.skills-heading {
+  color: #506ccf;
+}
